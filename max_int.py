@@ -1,6 +1,6 @@
 # Fyrst er búinn til stærsti integer (0) til að bera saman við.
 # Notandi er síðan beðinn um að slá inn integer sem er borinn saman við stærsta integer.
-# Ef integerinn er stærri eða jafn stór, þá er innsláði integerinn hinn nýji stærsti integer.
+# Ef integerinn er stærri eða jafn stór, þá er innslegni integerinn hinn nýji stærsti integer.
 # Notandinn er spurður aftur þangað til hann slær inn neikvæða tölu og þá endar forritið.
 
 max_int = 0
