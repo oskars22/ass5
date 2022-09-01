@@ -4,16 +4,11 @@
 # Notandinn er spurður aftur þangað til hann slær inn neikvæða tölu og þá endar forritið.
 
 max_int = 0
-new_int = int(input("Please enter an integer: "))
+num_int = int(input("Input a number: "))
 
-while new_int > 0:
-    if new_int >= max_int:
-        print(new_int, "is the largest integer!")
-        max_int = new_int
-    else:
-        print(new_int, "is not the largest integer.")
+while num_int >= 0:
+    if num_int >= max_int:
+        max_int = num_int
+    num_int = int(input("Input a number: "))
 
-    new_int = int(input("Please enter an integer: "))
-
-else:
-    print("Show's over.")
+print("The maximum is", max_int)  # Do not change this line
